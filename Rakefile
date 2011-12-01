@@ -4,7 +4,7 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "opengraph"
+    gem.name = "socialcast-opengraph"
     gem.summary = %Q{A very simple Ruby library for parsing Open Graph prototocol information from websites.}
     gem.description = %Q{A very simple Ruby library for parsing Open Graph prototocol information from websites. See http://opengraphprotocol.org for more information.}
     gem.email = "michael@intridea.com"
