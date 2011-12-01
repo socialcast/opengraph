@@ -5,11 +5,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{opengraph}
-  s.version = "0.0.4"
+  s.version = "0.0.5"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Michael Bleigh"]
-  s.date = %q{2010-11-04}
+  s.date = %q{2011-12-01}
   s.description = %q{A very simple Ruby library for parsing Open Graph prototocol information from websites. See http://opengraphprotocol.org for more information.}
   s.email = %q{michael@intridea.com}
   s.extra_rdoc_files = [
@@ -48,20 +48,20 @@ Gem::Specification.new do |s|
 
     if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_runtime_dependency(%q<hashie>, [">= 0"])
-      s.add_runtime_dependency(%q<nokogiri>, ["~> 1.4.0"])
+      s.add_runtime_dependency(%q<nokogiri>, ["~> 1.5.0"])
       s.add_runtime_dependency(%q<rest-client>, ["~> 1.6.0"])
       s.add_development_dependency(%q<rspec>, [">= 1.2.9"])
       s.add_development_dependency(%q<webmock>, [">= 0"])
     else
       s.add_dependency(%q<hashie>, [">= 0"])
-      s.add_dependency(%q<nokogiri>, ["~> 1.4.0"])
+      s.add_dependency(%q<nokogiri>, ["~> 1.5.0"])
       s.add_dependency(%q<rest-client>, ["~> 1.6.0"])
       s.add_dependency(%q<rspec>, [">= 1.2.9"])
       s.add_dependency(%q<webmock>, [">= 0"])
     end
   else
     s.add_dependency(%q<hashie>, [">= 0"])
-    s.add_dependency(%q<nokogiri>, ["~> 1.4.0"])
+    s.add_dependency(%q<nokogiri>, ["~> 1.5.0"])
     s.add_dependency(%q<rest-client>, ["~> 1.6.0"])
     s.add_dependency(%q<rspec>, [">= 1.2.9"])
     s.add_dependency(%q<webmock>, [">= 0"])
